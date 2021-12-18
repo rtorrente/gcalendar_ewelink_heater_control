@@ -1,0 +1,6 @@
+*.js
+.idea
+.DS_Store
+node_modules
+google-secret.json
+.env
