@@ -12,6 +12,8 @@ COPY *.ts ./
 COPY tsconfig.json ./
 RUN npm run build
 
+
+
 COPY . .
 
 CMD [ "node", "index.js" ]
